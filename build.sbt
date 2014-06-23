@@ -10,6 +10,8 @@ scalacOptions ++= Seq(
   "-Yresolve-term-conflict:package"
 )
 
+
+
 val bijectionVersion = "0.6.2"
 val storehausVersion = "0.9.0"
 val tormentaVersion = "0.7.0"
@@ -45,3 +47,5 @@ resolvers ++= Seq(
   "Conjars Repository" at "http://conjars.org/repo",
   "Twitter Maven" at "http://maven.twttr.com"
 )
+
+
